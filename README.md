@@ -1,6 +1,6 @@
 # VQA-HUD
 
-This repository for **AAAI 2025 Paper:** [Mind the Uncertainty in Human Disagreement: Evaluating Discrepancies Between Model Predictions and Human Responses in VQA](https://ojs.aaai.org/index.php/AAAI/article/view/32468/34623)  
+This is the repository for **AAAI 2025 Paper:** [Mind the Uncertainty in Human Disagreement: Evaluating Discrepancies Between Model Predictions and Human Responses in VQA](https://ojs.aaai.org/index.php/AAAI/article/view/32468/34623)  
 
 
 ---
