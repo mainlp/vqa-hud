@@ -16,8 +16,8 @@ This is the repository for **AAAI 2025 Paper:** [Mind the Uncertainty in Human D
    Follow the [LXMERT](https://github.com/airsplay/lxmert) and [BEIT3](https://github.com/microsoft/unilm/blob/master/beit3/README.md),  and fine-tune the provided checkpoints.
 ## TODO
 
-- [ ] script for HUD scores
-- [ ] script for Evaluation
+- [☑️] script for HUD scores
+- [☑️] script for Evaluation
 
 ## 📄 Citation
 @article{Lan_Frassinelli_Plank_2025, 
