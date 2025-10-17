@@ -11,6 +11,7 @@ This is the repository for **AAAI 2025 Paper:** [Mind the Uncertainty in Human D
    ```bash
    git clone https://github.com/mainlp/vqa-hud.git
    cd vqa-hud
+   ```
 2. Prepare the dataset and base models:
    Download the dataset [VQA 2.0](https://visualqa.org) 
    Follow the [LXMERT](https://github.com/airsplay/lxmert) and [BEIT3](https://github.com/microsoft/unilm/blob/master/beit3/README.md),  and fine-tune the provided checkpoints.
@@ -18,14 +19,16 @@ This is the repository for **AAAI 2025 Paper:** [Mind the Uncertainty in Human D
 
 - [☑️] script for HUD scores
 - [☑️] script for Evaluation
+
 3. Prepare the dataset and base models:
-   Run
+   Run:
+  ```bash
    python HUD_score.py
    python split_hud.py --ascending
    to get the hud scores and set splits.
-   You can find all the evaluation functions in evaluation.py to implement any customized data evaluations.
+   ```
+You can find all the evaluation functions in evaluation.py to implement any customized data evaluations.
 
-   
 ## 📄 Citation
 @article{Lan_Frassinelli_Plank_2025, 
 title={Mind the Uncertainty in Human Disagreement: Evaluating Discrepancies Between Model Predictions and Human Responses in VQA}, 
