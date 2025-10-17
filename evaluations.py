@@ -223,10 +223,10 @@ def tvd_metric(
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser()
-    p.add_argument("--beit_labelpath", default="/nfs/gdata/jian/project/vqa/emnlp24/models/unilm/beit3/data/vqa2.0/answer2label.txt")
-    p.add_argument("--lxmert_labelpath", default="/nfs/gdata/jian/project/vqa/emnlp24/models/lxmert-master/data/vqa/trainval_ans2label.json")
-    p.add_argument("--pre_path", default="/nfs/gdata/user/project/vqa/conf24/models/unilm/beit3/eval_scores/beit_low.json")
-    p.add_argument("--annotations", default="/nfs/gdata/user/project/vqa/conf24/models/unilm/beit3/data/vqa2.0/vqa/v2_mscoco_val2014_annotations.json")
+    p.add_argument("--beit_labelpath", default="/data/vqa2.0/answer2label.txt")
+    p.add_argument("--lxmert_labelpath", default="/data/vqa/trainval_ans2label.json")
+    p.add_argument("--pre_path", default="/beit3/eval_scores/beit_low.json")
+    p.add_argument("--annotations", default="/beit3/data/vqa2.0/vqa/v2_mscoco_val2014_annotations.json")
     p.add_argument("--use_label", choices=["beit", "lxmert"], default="beit")
     p.add_argument("--ts", action="store_true")
     p.add_argument("--temperature", type=float, default=1.0)
