@@ -18,7 +18,14 @@ This is the repository for **AAAI 2025 Paper:** [Mind the Uncertainty in Human D
 
 - [☑️] script for HUD scores
 - [☑️] script for Evaluation
+3. Prepare the dataset and base models:
+   Run
+   python HUD_score.py
+   python split_hud.py --ascending
+   to get the hud scores and set splits.
+   You can find all the evaluation functions in evaluation.py to implement any customized data evaluations.
 
+   
 ## 📄 Citation
 @article{Lan_Frassinelli_Plank_2025, 
 title={Mind the Uncertainty in Human Disagreement: Evaluating Discrepancies Between Model Predictions and Human Responses in VQA}, 
